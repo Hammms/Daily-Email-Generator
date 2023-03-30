@@ -1,0 +1,309 @@
+<mjml>
+  <mj-head>
+    <mj-title>*|MC:SUBJECT|*</mj-title>
+    <mj-preview>*|MC_PREVIEW_TEXT|*</mj-preview>
+    <mj-style inline="inline">
+      .article-title a { font-family: 'Arial', sans-serif !important; font-weight: 700 !important; color: #007593 !important; font-size: 21px !important; line-height: 125% !important; } .article-excerpt div { font-family: 'Arial', sans-sarif !important; font-size: 16px !important; line-height: 22px !important; color: #909090 !important; font-weight: 400 !important; } .job-listing div { font-family: 'Arial', sans-sarif !important; font-size: 16px !important; } .job-listing div a { font-family: 'Arial', sans-sarif !important; font-size: 16px !important; color: #007593; !important; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f0f0f0">
+    {{#if preview}}
+      <mj-section>
+        <mj-column width="100%">
+          <mj-text align="center" font-family="Arial, sans-sarif" font-size="20px" font-weight="700">
+            PREVIEW PREVIEW PREVIEW
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    {{/if}}
+    <mj-section padding-bottom="1px" padding-top="5px">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="10px">
+          *|IFNOT:ARCHIVE_PAGE|*
+          <a href="*|ARCHIVE|*">View Email in browser</a> *|END:IF|*
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0px" padding-top="1px">
+      <mj-column width="100%">
+        <mj-image href="https://connectingdirectors.com/?{{utm}}" padding-bottom="0px" src="https://mcusercontent.com/6c8c75b1818585de1ff5f3b85/images/a35694d2-a729-44c2-bea5-b175d32bca6b.png"></mj-image>
+        {{#if preview}}
+        <mj-image href="https://ad.broadstreetads.com/zone_static/72749/click/0?preview=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" padding-bottom="0px" padding-top="0px" src="https://ad.broadstreetads.com/zone_static/72749/image/0?preview=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        {{else}}
+        <mj-image href="https://ad.broadstreetads.com/zone_static/72749/click/0?seed=*|CAMPAIGN_UID|**|UNIQID|*" padding-bottom="0px" padding-top="0px" src="https://ad.broadstreetads.com/zone_static/72749/image/0?seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        {{/if}}
+        <mj-image href="https://connectingdirectors.com/?{{utm}}" padding-top="0px" src="https://mcusercontent.com/6c8c75b1818585de1ff5f3b85/images/94f757da-569d-4d4c-8340-ffac47443804.png"></mj-image>
+        <mj-divider border-color="#f8f8f8" border-width="1px" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="20px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fcfcfc" padding-bottom="0px">
+      <mj-column width="100%">
+        <mj-text align="center" font-family="Arial, sans-sarif" font-size="20px" font-weight="700">
+          Introducing: The Daily Hearse Tip Line
+        </mj-text>
+        <mj-text align="left" color="grey" font-family="Arial, sans-serif" font-size="15px" font-style="italic" line-height="25px">
+          Have an insider tip, a story lead or something you'd like to see covered? Shoot us an anonymous note at <a href="mailto:tips@connectingdirectors.com">tips@connectingdirectors.com</a>
+        </mj-text>
+        <mj-divider border-color="#f8f8f8" border-width="1px" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="20px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="1px">
+      <mj-column width="100%">
+      {{#if preview}}
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81432/click/0?preview=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81432/image/0?preview=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+      {{else}}
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81432/click/0?seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81432/image/0?seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+      {{/if}}
+      </mj-column>
+    </mj-section>
+    {{#if promo.enabled}}
+    {{#with promo}}
+    <mj-section padding-bottom="30px">
+      <mj-column width="92%">
+        {{#if title}}
+        <mj-text color="#007593" font-size="21px" font-weight="700">
+          {{{title}}}
+        </mj-text>
+        {{/if}}
+        <mj-image href="{{url}}?{{@root.utm}}" padding-top="0px" src="{{image}}"></mj-image>
+        <mj-button background-color="#007593" border-radius="5px" color="white" font-size="15px" href="{{url}}?{{@root.utm}}" width="480px">
+          {{{buttonText}}}
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    {{/with}}
+    {{/if}}
+    {{#with article_1}}
+    <mj-section background-color="white" padding="30px 20px">
+      <mj-column width="100%">
+        <mj-text align="left" css-class="article-title">
+          <a href="{{url}}?{{@root.utm}}&amp;utm_content=article-block-title">{{{title}}}</a>
+        </mj-text>
+        <mj-text align="left" css-class="article-excerpt">
+          {{{excerpt}}}
+        </mj-text>
+        <mj-button background-color="#007593" border-radius="5px" color="white" font-size="15px"
+          href="{{url}}?{{@root.utm}}&amp;utm_content=article-block-button" inner-padding="10px" width="100%">
+          Read More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    {{/with}}
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image href="https://deathcarejobs.com/?{{utm}}&amp;utm_content=dcj-logo" src="https://mcusercontent.com/6c8c75b1818585de1ff5f3b85/images/ad7d005c-9189-6343-effa-be8da404c138.png"></mj-image>
+        <mj-button background-color="#007593" border-radius="5px" color="white" font-size="15px" href="https://deathcarejobs.com/post-a-job?{{utm}}&amp;utm_content=dcj-post-a-job-button" inner-padding="10px" padding-bottom="5px" padding-top="5px" width="550px">
+          Post A Job
+        </mj-button>
+        <mj-divider border-color="lightgrey" border-width="1px"></mj-divider>
+        {{#each jobListings}}
+        <mj-text css-class="job-listing">
+          <a href="{{link}}?{{@root.utm}}">{{{title}}} at {{{company}}}</a> &mdash; {{{location}}}
+        </mj-text>
+        {{/each}}
+        <mj-divider border-color="lightgrey" border-width="1px"></mj-divider>
+        <mj-text css-class="job-listing">
+          <a href="https://deathcarejobs.com/job-type/funeral-director?{{utm}}">Funeral Director Jobs</a> &middot;
+          <a href="https://deathcarejobs.com/job-type/embalmer?{{utm}}">Embalmer Jobs</a> &middot;
+          <a href="https://deathcarejobs.com/job-type/cemetery?{{utm}}">Cemetery Jobs</a> &middot;
+          <a href="https://deathcarejobs.com/job-type/cremation?{{utm}}">Cremation Jobs</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="10px" padding-top="5px">
+      <mj-column width="100%">
+      {{#if preview}}
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/0?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/0?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/1?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/1?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/2?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/2?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+      {{else}}
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/0?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/0?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/1?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/1?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/2?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/2?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+      {{/if}}
+      </mj-column>
+    </mj-section>
+    {{#with article_2}}
+    <mj-section background-color="white" padding="30px 20px">
+      <mj-column width="100%">
+        <mj-text align="left" css-class="article-title">
+          <a href="{{url}}?{{@root.utm}}&amp;utm_content=article-block-title">{{{title}}}</a>
+        </mj-text>
+        <mj-text align="left" css-class="article-excerpt">
+          {{{excerpt}}}
+        </mj-text>
+        <mj-button background-color="#007593" border-radius="5px" color="white" font-size="15px"
+          href="{{url}}?{{@root.utm}}&amp;utm_content=article-block-button" inner-padding="10px" width="100%">
+          Read More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    {{/with}}
+    <mj-section padding-bottom="10px" padding-top="10px">
+      <mj-column width="100%">
+      {{#if preview}}
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/3?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/3?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/4?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/4?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/5?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/5?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+      {{else}}
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/3?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/3?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/4?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/4?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/5?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/5?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+      {{/if}}
+      </mj-column>
+    </mj-section>
+    {{#with article_3}}
+    <mj-section background-color="white" padding="30px 20px">
+      <mj-column width="100%">
+        <mj-text align="left" css-class="article-title">
+          <a href="{{url}}?{{@root.utm}}&amp;utm_content=article-block-title">{{{title}}}</a>
+        </mj-text>
+        <mj-text align="left" css-class="article-excerpt">
+          {{{excerpt}}}
+        </mj-text>
+        <mj-button background-color="#007593" border-radius="5px" color="white" font-size="15px"
+          href="{{url}}?{{@root.utm}}&amp;utm_content=article-block-button" inner-padding="10px" width="100%">
+          Read More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    {{/with}}
+    <mj-section padding-bottom="10px" padding-top="10px">
+      <mj-column width="100%">
+      {{#if preview}}
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/6?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/6?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/7?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/7?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/8?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/8?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+      {{else}}
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/6?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/6?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/7?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/7?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/8?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/8?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+      {{/if}}
+      </mj-column>
+    </mj-section>
+    {{#with article_4}}
+    <mj-section background-color="white" padding="30px 20px">
+      <mj-column width="100%">
+        <mj-text align="left" css-class="article-title">
+          <a href="{{url}}?{{@root.utm}}&amp;utm_content=article-block-title">{{{title}}}</a>
+        </mj-text>
+        <mj-text align="left" css-class="article-excerpt">
+          {{{excerpt}}}
+        </mj-text>
+        <mj-button background-color="#007593" border-radius="5px" color="white" font-size="15px"
+          href="{{url}}?{{@root.utm}}&amp;utm_content=article-block-button" inner-padding="10px" width="100%">
+          Read More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    {{/with}}
+    <mj-section padding-bottom="10px" padding-top="10px">
+      <mj-column width="100%">
+      {{#if preview}}
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/9?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/9?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/10?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/10?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/11?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/11?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        {{else}}
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/9?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/9?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/10?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/10?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/11?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/11?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        {{/if}}
+      </mj-column>
+    </mj-section>
+    {{#with article_5}}
+    <mj-section background-color="white" padding="30px 20px">
+      <mj-column width="100%">
+        <mj-text align="left" css-class="article-title">
+          <a href="{{url}}?{{@root.utm}}&amp;utm_content=article-block-title">{{{title}}}</a>
+        </mj-text>
+        <mj-text align="left" css-class="article-excerpt">
+          {{{excerpt}}}
+        </mj-text>
+        <mj-button background-color="#007593" border-radius="5px" color="white" font-size="15px"
+          href="{{url}}?{{@root.utm}}&amp;utm_content=article-block-button" inner-padding="10px" width="100%">
+          Read More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    {{/with}}
+    <mj-section padding-bottom="10px" padding-top="10px">
+      <mj-column width="100%">
+        {{#if preview}}
+          <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/12?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/12?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+          <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/13?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/13?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+          <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/14?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/14?preview=true&amp;ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        {{else}}
+          <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/12?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/12?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+          <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/13?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/13?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+          <mj-image href="https://ad.broadstreetads.com/zone_static/81429/click/14?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*" src="https://ad.broadstreetads.com/zone_static/81429/image/14?ds=true&amp;seed=*|CAMPAIGN_UID|**|UNIQID|*"></mj-image>
+        {{/if}}
+      </mj-column>
+    </mj-section>
+    {{#with article_6}}
+    <mj-section background-color="white" padding="30px 20px">
+      <mj-column width="100%">
+        <mj-text align="left" css-class="article-title">
+          <a href="{{url}}?{{@root.utm}}&amp;utm_content=article-block-title">{{{title}}}</a>
+        </mj-text>
+        <mj-text align="left" css-class="article-excerpt">
+          {{{excerpt}}}
+        </mj-text>
+        <mj-button background-color="#007593" border-radius="5px" color="white" font-size="15px"
+          href="{{url}}?{{@root.utm}}&amp;utm_content=article-block-button" inner-padding="10px" width="100%">
+          Read More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    {{/with}}
+    <mj-section padding-bottom="2px" padding-top="5px">
+      <mj-column width="100%">
+        <mj-divider border-color="darkgrey" border-width="1px"></mj-divider>
+        <mj-text align="center">
+          Follow Us
+        </mj-text>
+        <mj-social mode="horizontal">
+          <mj-social-element href="https://facebook.com/connectingdirectors" src="https://mcusercontent.com/6c8c75b1818585de1ff5f3b85/images/2a4498a0-6dd6-448f-805b-f87d90c577fc.png"></mj-social-element>
+          <mj-social-element href="https://instagram.com/cdfuneralnews" src="https://mcusercontent.com/6c8c75b1818585de1ff5f3b85/images/0af81e47-181d-4bbc-9acc-7bd5303cb7b0.png"></mj-social-element>
+          <mj-social-element href="https://twitter.com/cdfuneralnews" src="https://mcusercontent.com/6c8c75b1818585de1ff5f3b85/images/789ad6c3-68fc-4100-8344-30cf152f7782.png"></mj-social-element>
+          <mj-social-element href="https://www.youtube.com/user/connectingdirectors" src="https://mcusercontent.com/6c8c75b1818585de1ff5f3b85/images/27776d61-5f67-46c1-b50f-8d1f4ec07cf2.png"></mj-social-element>
+          <mj-social-element href="https://linkedin.com/company/connectingdirectors.com" src="https://mcusercontent.com/6c8c75b1818585de1ff5f3b85/images/87ed043f-12c1-4723-859e-1592055db1eb.png"></mj-social-element>
+          <mj-social-element href="https://connectingdirectors.com/feed" src="https://mcusercontent.com/6c8c75b1818585de1ff5f3b85/images/7dbeb69a-92cc-460f-b075-c876509d3d2e.png"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="5px">
+      <mj-column width="100%">
+        <mj-text align="center">
+          &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*
+        </mj-text>
+        <mj-text align="center" padding-bottom="3px">
+          *|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+        </mj-text>
+        <mj-text align="center" padding-bottom="8px" padding-top="3px">
+          *|HTML:LIST_ADDRESS_HTML|*
+        </mj-text>
+        <mj-text align="center" padding-top="8px">
+          <a href="*|UNSUB|*">Unsubscribe</a> &middot;
+          <a href="*|UPDATE_PROFILE|*">Update Preferences</a> &middot;
+          <a href="*|FORWARD|*">Forward This Email</a> *|END:IF|*
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    {{#if preview}}
+    <mj-raw>
+      <script>
+        window.addEventListener("DOMContentLoaded", function() {
+          const links = document.querySelectorAll("a");
+          for (var i = 0; i < links.length; i++) {
+            var currentLink = links[i];
+            currentLink.addEventListener("click", function (e) {
+              e.preventDefault();
+              window.alert("Will link to: " + this.getAttribute("href"))
+            })
+          }
+        })
+      </script>
+    </mj-raw>
+    {{/if}}
+  </mj-body>
+</mjml>

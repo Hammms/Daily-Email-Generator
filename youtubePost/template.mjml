@@ -1,0 +1,98 @@
+<mjml>
+  <mj-head>
+    <mj-title>*|MC:SUBJECT|*</mj-title>
+    <mj-preview>*|MC_PREVIEW_TEXT|*</mj-preview>
+    <mj-attributes>
+      <mj-font href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" name="Roboto" />
+      <mj-all font-family="Roboto, Arial, sans-serif"></mj-all>
+      <mj-class name="heading" font-weight="500" font-size="19px" padding-top="20px" padding-bottom="0" />
+      <mj-class name="text" font-weight="300" font-size="16px" color="#616161" line-height="28px" />
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section padding="20px 0">
+      <mj-column width="100%">
+        <mj-text align="center" mj-class="text" font-size="12px">*|IFNOT:ARCHIVE_PAGE|*
+          <a href="*|ARCHIVE|*?{{utm}}">View Email in browser</a> *|END:IF|*</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text align="center" mj-class="heading">Webcasting Made Simple (Funeraweb)</mj-text>
+        <mj-image src="https://connectingdirectors.com/wp-content/uploads/2022/03/maxresdefault-1.png" href="https://www.youtube.com/watch?v=jg5u8yTz4u0"></mj-image>
+        <mj-text align="center" mj-class="text">Corey Jordan and Funeraweb are changing the game for funeral live streams. Last year they helped funeral homes broadcast over 30,000 hours with their top-tier technology and services. You can visit Feneraweb in Vegas for ICCFA at booth #1502.  <a href="https://funeraweb.tv/en/home/"></a></mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Issue number/date -->
+    
+     
+    <!-- /Issue number/date -->
+    <!-- Main Content -->
+    
+    <!-- /Main Content -->
+    <mj-section>
+      <mj-column>
+        <mj-divider width="80%" border-width="1px" padding-top="30px" padding-bottom="30px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <!-- DCJ Listings -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text mj-class="heading">Looking for a job? Here's some!</mj-text>
+        {{#each listings}}
+          <mj-text mj-class="text"><a href="{{link}}?{{utm}}" target="_blank" rel="nofollow noopener">{{{ title }}} at {{{ company }}}</a> &mdash; {{{ location }}}</mj-text>
+        {{/each}}
+      </mj-column>
+    </mj-section>
+    <!-- /DCJ Listings -->
+    <mj-section>
+      <mj-column>
+        <mj-divider width="80%" border-width="1px" padding-top="30px" padding-bottom="30px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <!-- Social -->
+    <mj-section>
+      <mj-column width="35%">
+        <mj-table>
+          <tr style="list-style: none; line-height: 1">
+            <td>
+              <a href="https://facebook.com/connectingdirectors?{{utm}}">
+                <img width="20" src="https://assets.thedailyhearse.com/fffw/social-icons/facebook.png?{{utm}}" />
+              </a>
+            </td>
+            <td>
+              <a href="https://twitter.com/cdfuneralnews?{{utm}}">
+                <img width="20" src="https://assets.thedailyhearse.com/fffw/social-icons/twitter.png?{{utm}}" />
+              </a>
+            </td>
+            <td>
+              <a href="https://www.youtube.com/user/connectingdirectors?{{utm}}">
+                <img width="25" src="https://assets.thedailyhearse.com/fffw/social-icons/youtube.png?{{utm}}" />
+              </a>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- /Social -->
+    <!-- Required MailChimp Info -->
+    <mj-section>
+      <mj-column width="65%">
+        <mj-text mj-class="text" align="center" font-family="Arial" font-size="12px">&copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*</mj-text>
+        <mj-text mj-class="text" align="center" padding-bottom="3px" font-family="Arial" font-size="12px">*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*</mj-text>
+        <mj-text mj-class="text" align="center" padding-top="3px" padding-bottom="8px" font-family="Arial" font-size="12px">*|HTML:LIST_ADDRESS_HTML|*</mj-text>
+        <mj-text mj-class="text" align="center" padding-top="8px" font-family="Arial" font-size="12px">
+          <a href="*|UNSUB|*">Unsubscribe</a> &middot;
+          <a href="*|UPDATE_PROFILE|*">Update Preferences</a> &middot;
+          <a href="*|FORWARD|*">Forward This Email</a> *|END:IF|*
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /Required MailChimp Info -->
+  </mj-body>
+</mjml>

@@ -1,0 +1,135 @@
+<mjml>
+  <mj-head>
+    <mj-title>*|MC:SUBJECT|*</mj-title>
+    <mj-preview>*|MC_PREVIEW_TEXT|*</mj-preview>
+    <mj-attributes>
+      <mj-font href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" name="Roboto" />
+      <mj-all font-family="Roboto, Arial, sans-serif"></mj-all>
+      <mj-class name="heading" font-weight="500" font-size="19px" padding-top="20px" padding-bottom="0" />
+      <mj-class name="text" font-weight="300" font-size="16px" color="#616161" line-height="28px" />
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section padding="20px 0">
+      <mj-column width="100%">
+        <mj-text align="center" mj-class="text" font-size="12px">*|IFNOT:ARCHIVE_PAGE|*
+          <a href="*|ARCHIVE|*?utm_source&#x3D;connectingdirectors&amp;utm_medium&#x3D;email&amp;utm_campaign&#x3D;4m_12-13-2021">View Email in browser</a> *|END:IF|*</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image href="https://connectingdirectors.com/?utm_source&#x3D;connectingdirectors&amp;utm_medium&#x3D;email&amp;utm_campaign&#x3D;4m_12-13-2021" src="https://connectingdirectors.com/wp-content/uploads/2021/12/Monday-Morning-Mashup-13.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text align="center" mj-class="heading">Morticians' Monday Morning Mashup</mj-text>
+        <mj-text align="center" mj-class="text">Your weekly email publication from
+          <a href="https://connectingdirectors.com/?utm_source&#x3D;connectingdirectors&amp;utm_medium&#x3D;email&amp;utm_campaign&#x3D;4m_12-13-2021" target="_blank">Connecting Directors</a>
+          that gives you some info, opinions, and hopefully a little bit of
+          fun.</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Issue number/date -->
+    <mj-section>
+      <mj-column width="65%">
+        <mj-text align="center" mj-class="heading">ISSUE #13 - December 13, 2021</mj-text>
+        <mj-divider border-width="2px" border-color="#616161"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <!-- /Issue number/date -->
+    <!-- Main Content -->
+    <mj-section padding-top="30px">
+      <mj-column width="100%">
+        <mj-text mj-class="text">Welcome to the thirteenth edition of Morticians’ Monday Morning Mashup, where we’ll serve up bite-sized, easily-digestible nuggets of the deathcare news you need to crush conversations in the week ahead. Bon appetit!</mj-text>
+        <mj-text mj-class="heading">No, This Futuristic Swiss Suicide Pod Doesn’t Kill You By Launching You Into Space</mj-text>
+        <mj-image src="https://lh5.googleusercontent.com/A4ytpMGG4b3n2x4zVYkIZpXD7fRorFxYn4A4KOZXzGxFdq-nAp58iUw_v9cFlIQgxiziZsFuTakSDEPFM2Jd9qKDGeU5fJ1z2gcOVaw_mtA9d8bU7SmvJPMjbuXRy67oqiLFcC6z" align="center" width="300px"></mj-image>
+        <mj-text mj-class="text">Switzerland is one of a handful of countries that legally allows physician-assisted suicide (as do Germany, Luxembourg, and Canada), so it’s no surprise that the handy folks who brought us the pocketknife that does everything have come up with an efficient way to do yourself in. It’s called “Sarco” and it’s the brainchild of a company called Exit International (!). The pod itself is created using a 3D printer and works by slowly removing oxygen from the air, leading to the passenger’s unconsciousness and death. You can read more about it <a href="https://bgr.com/lifestyle/switzerland-approves-sarco-assisted-suicide-pod/" target="_blank">here</a>, but don’t look for the pod to arrive in the states anytime soon. Only two prototypes currently exist, and one of those is in a museum.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="heading">Deathcare UNProfessional</mj-text>
+        <mj-text mj-class="text">In March 2020, the Tennessee Department of Commerce & Insurance Division began investigating former funeral director and embalmer Reid Van Ness for not shipping bodies of deceased Hispanic individuals to their countries of origin as promised despite accepting payment from their families. Last week the Department issued a <a href="https://www.tn.gov/commerce/news/2021/12/6/consumer-alert-for-tennessee-consumers-and-funeral-professionals.html" target="_blank">consumer alert alleging Van Ness</a> — who surrendered his licenses during the investigation — was reaching out to Spanish-speaking families and offering his services.</mj-text>
+        <mj-text mj-class="text">As if that wasn’t bad enough, though, <a href="https://www.wsmv.com/call_4_action/tdci-former-funeral-director-allegedly-misled-families-who-ve-recently-lost-loved-ones/article_e8679a4e-56d7-11ec-800e-43cfa2ee645e.html" target="_blank">Van Ness actually issued the following statement to a Nashville news station</a> reporting on the alert: <em>"The news release is nonsense. The board of funeral directors and embalmers likes to put the cart before the horse. One, I do not solicit funerals from anyone. People within the Hispanic community call me, I don't call them. It may be for help in obtaining funeral and or cremation services or resources to find rental or utility funds. The problem here is politically based and driven by the funeral directors not getting my referrals are upset. They don't want to help these families. It's too much trouble or they just want their money. Haters are haters. May God bless them."</em> Just … Wow.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+        <mj-column>
+            <mj-text mj-class="heading">Get Ready: “DeathTok” Is Now Officially a Thing</mj-text>
+            <mj-text mj-class="text">Last December <a href="https://connectingdirectors.com/58218-young-morticians-use-tiktok-to-talk-about-death" target="_blank">Connecting Directors writer Diana Ionescu educated us</a> on the growing number of morticians taking to TikTok to share their thoughts on all things death and embalming. If you thought that was a temporary fad, though, think again. <a href="https://www.bodyandsoul.com.au/mind-body/wellness/a-new-generation-of-social-media-savvy-morticians-are-demystifying-death/news-story/7e3c968063a8b0abecfab6ed3952d9d5" target="_blank">"DeathTok,” as Mimi the Mortician has dubbed the phenomenon</a>, is growing faster than you can say hashtag death positive. And it’s not just TikTok; funeral directors and embalmers on YouTube, Twitter, Instagram, and online magazines (like <a href="https://www.youtube.com/watch?v=W4ktLen9cVM&t=392s" target="_blank">Wired Magazine’s “resident death expert” Victor M. Sweeney</a>) are fascinating fans with their knowledge. People have questions about what happens when you die, and they’re not afraid to ask them — especially behind the veil of social media. Would you consider taking to TikTok to share what you know, or perhaps hosting a Reddit AMA? IMHO, it couldn’t hurt, if done well. What do you think?</mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section>
+        <mj-column>
+            <mj-text mj-class="heading">Scots Want to Put Something Special in Stockings This Christmas</mj-text>
+            <mj-text mj-class="text">You may have seen what <a href="https://www.vice.com/en/article/bvnmyq/direct-to-consumer-titan-caskets-death-industry" target="_blank">Vice calls the “modest avalanche of press”</a> that Titan Caskets has generated over the past few months. Perhaps what you missed, though, was the roasting the company is taking on social media for calling itself the “Warby Parker of caskets.” If you’re not familiar with the online version of the eyeglass company, it’s famous for letting you order multiple pairs of spectacles and sending back the ones that don’t work. As the Twitterverse has hilariously explained, that’s NOT how a casket selection works. Just check out this post:</mj-text>
+            <mj-image src="https://lh3.googleusercontent.com/e6GV465xXSRG2t5CYmUaAokqiCj50uemcml_x4jyhHqDjhJfomFIY3tRQ8fBNSq8hs4zDw_zsksMCJdK3xAJP6UxTgWSxFeZwQf8mmmHSKxwaI3Kw6w0PzzLqBE5fNow4yYUFSY9" align="center" width="300px"></mj-image>
+            <mj-text mj-class="text">BTW, to be “5150’ed” is to be involuntarily detained for a 72-hour psychiatric evaluation — which your friends and family may actually consider for you if you order five caskets, try them out, and send four back.</mj-text>
+        </mj-column>
+    </mj-section>
+    <!-- /Main Content -->
+    <mj-section>
+      <mj-column>
+        <mj-divider width="80%" border-width="1px" padding-top="30px" padding-bottom="30px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <!-- DCJ Listings -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text mj-class="heading">Looking for a job? Here's some!</mj-text>
+          <mj-text mj-class="text"><a href="https://deathcarejobs.com/jobs/foundation-partners-caldwell-idaho-83605-funeral-director-funeral-director-52084?" target="_blank" rel="nofollow noopener">Funeral Director at Foundation Partners</a> &mdash; Caldwell, Idaho 83605</mj-text>
+          <mj-text mj-class="text"><a href="https://deathcarejobs.com/jobs/foundation-partners-santa-fe-new-mexico-87507-united-states-funeral-director-funeral-arranger-52083?" target="_blank" rel="nofollow noopener">Funeral Arranger at Foundation Partners</a> &mdash; Santa Fe, New Mexico 87507, United States</mj-text>
+          <mj-text mj-class="text"><a href="https://deathcarejobs.com/jobs/cremation-services-usa-management-cremationservices-com-managing-partner-52077?" target="_blank" rel="nofollow noopener">CremationServices.com Managing Partner at Cremation Services</a> &mdash; USA</mj-text>
+          <mj-text mj-class="text"><a href="https://deathcarejobs.com/jobs/indiana-funeral-care-crematory-indianapolis-indiana-embalmer-funeral-director-licensed-funeral-director-52075?" target="_blank" rel="nofollow noopener">Licensed Funeral Director at Indiana Funeral Care & Crematory</a> &mdash; Indianapolis, Indiana</mj-text>
+          <mj-text mj-class="text"><a href="https://deathcarejobs.com/jobs/skylawn-memorial-park-san-mateo-california-funeral-director-funeral-arranger-52074?" target="_blank" rel="nofollow noopener">Funeral Arranger at Skylawn Memorial Park</a> &mdash; San Mateo, CA 94402</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /DCJ Listings -->
+    <mj-section>
+      <mj-column>
+        <mj-divider width="80%" border-width="1px" padding-top="30px" padding-bottom="30px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <!-- Social -->
+    <mj-section>
+      <mj-column width="35%">
+        <mj-table>
+          <tr style="list-style: none; line-height: 1">
+            <td>
+              <a href="https://facebook.com/connectingdirectors?utm_source&#x3D;connectingdirectors&amp;utm_medium&#x3D;email&amp;utm_campaign&#x3D;4m_12-13-2021">
+                <img width="20" src="https://assets.thedailyhearse.com/fffw/social-icons/facebook.png?utm_source&#x3D;connectingdirectors&amp;utm_medium&#x3D;email&amp;utm_campaign&#x3D;4m_12-13-2021" />
+              </a>
+            </td>
+            <td>
+              <a href="https://twitter.com/cdfuneralnews?utm_source&#x3D;connectingdirectors&amp;utm_medium&#x3D;email&amp;utm_campaign&#x3D;4m_12-13-2021">
+                <img width="20" src="https://assets.thedailyhearse.com/fffw/social-icons/twitter.png?utm_source&#x3D;connectingdirectors&amp;utm_medium&#x3D;email&amp;utm_campaign&#x3D;4m_12-13-2021" />
+              </a>
+            </td>
+            <td>
+              <a href="https://www.youtube.com/user/connectingdirectors?utm_source&#x3D;connectingdirectors&amp;utm_medium&#x3D;email&amp;utm_campaign&#x3D;4m_12-13-2021">
+                <img width="25" src="https://assets.thedailyhearse.com/fffw/social-icons/youtube.png?utm_source&#x3D;connectingdirectors&amp;utm_medium&#x3D;email&amp;utm_campaign&#x3D;4m_12-13-2021" />
+              </a>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- /Social -->
+    <!-- Required MailChimp Info -->
+    <mj-section>
+      <mj-column width="65%">
+        <mj-text mj-class="text" align="center" font-family="Arial" font-size="12px">&copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*</mj-text>
+        <mj-text mj-class="text" align="center" padding-bottom="3px" font-family="Arial" font-size="12px">*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*</mj-text>
+        <mj-text mj-class="text" align="center" padding-top="3px" padding-bottom="8px" font-family="Arial" font-size="12px">*|HTML:LIST_ADDRESS_HTML|*</mj-text>
+        <mj-text mj-class="text" align="center" padding-top="8px" font-family="Arial" font-size="12px">
+          <a href="*|UNSUB|*">Unsubscribe</a> &middot;
+          <a href="*|UPDATE_PROFILE|*">Update Preferences</a> &middot;
+          <a href="*|FORWARD|*">Forward This Email</a> *|END:IF|*
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /Required MailChimp Info -->
+  </mj-body>
+</mjml>

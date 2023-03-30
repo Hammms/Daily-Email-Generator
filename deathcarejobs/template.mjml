@@ -1,0 +1,56 @@
+<mjml>
+  <mj-head>
+    <mj-title>
+      *|MC:SUBJECT|*
+    </mj-title>
+    <mj-preview>
+      *|MC_PREVIEW_TEXT|*
+    </mj-preview>
+  </mj-head>
+  <mj-body>
+    <mj-section full-width="full-width" background-color="#222b38">
+      <mj-column>
+
+        <mj-image href="https://deathcarejobs.com/?{{utm}}" alt="Death Care Jobs Logo" src="https://mcusercontent.com/6c8c75b1818585de1ff5f3b85/images/5e20dbd2-7275-83d5-05a9-da5bfa58df11.png"></mj-image>
+
+        <mj-divider border-color="#b1e145"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider border-color="#000"></mj-divider>
+        
+        {{#each listings}}
+        <mj-text font-family="Arial, sans-serif" font-size="18px"><span style="font-weight:bold">{{{title}}}</span> - {{{company}}} - {{{location}}}</mj-text>
+        <mj-text font-family="Arial, sans-serif" font-size="16px">{{{excerpt}}}</mj-text>
+        <mj-text font-family="Arial, sans-serif" font-size="14px">
+          <a href="{{link}}?{{@root.utm}}&amp;utm_content=view-details-link">View Details</a>
+        </mj-text>
+        <mj-divider border-color="#000"></mj-divider>
+        <mj-spacer height="20px" />
+          {{/each}}
+        <mj-button font-family="Arial, sans-serif" background-color="#b1e145" color="black" font-weight="bold" href="https://deathcarejobs.com/?{{utm}}&amp;utm_content=view-more-listings-button">
+          View More Listings
+         </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="5px">
+      <mj-column width="100%">
+        <mj-text align="center" font-family="Arial, sans-serif">
+          &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*
+        </mj-text>
+        <mj-text align="center" font-family="Arial, sans-serif" padding-bottom="3px">
+          *|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+        </mj-text>
+        <mj-text align="center" font-family="Arial, sans-serif" padding-bottom="8px" padding-top="3px">
+          *|HTML:LIST_ADDRESS_HTML|*
+        </mj-text>
+        <mj-text align="center" font-family="Arial, sans-serif" padding-top="8px">
+          <a href="*|UNSUB|*">Unsubscribe</a> &middot;
+          <a href="*|UPDATE_PROFILE|*">Update Preferences</a> &middot;
+          <a href="*|FORWARD|*">Forward This Email</a> *|END:IF|*
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

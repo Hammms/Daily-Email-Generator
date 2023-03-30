@@ -1,0 +1,26 @@
+{
+  "name": "dh",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dh:preview": "yarn dh:generate:preview; cd dailyhearse; open email.html; cd ..;",
+    "dh:upload": "yarn dh:generate; cd dailyhearse; node upload.js; cd ..;",
+    "dh:generate": "cd dailyhearse; node index.js; cd ..;",
+    "dh:generate:preview": "cd dailyhearse; node index.js preview; cd ..;",
+    "dcj:upload": "cd deathcarejobs; node index.js; node upload.js; cd ..;",
+    "fffw:upload": "cd fffw; node index.js; node upload.js; cd ..;",
+    "4m:upload": "cd 4m; node index.js; node upload.js; cd ..;"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.38.0",
+    "@aws-sdk/node-http-handler": "3.38.0",
+    "axios": "0.24.0",
+    "cheerio": "1.0.0-rc.10",
+    "debug": "4.3.2",
+    "dotenv": "10.0.0",
+    "handlebars": "4.7.7",
+    "prompts": "^2.4.2"
+  }
+}

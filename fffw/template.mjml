@@ -1,0 +1,295 @@
+<mjml>
+  <mj-head>
+    <mj-title>*|MC:SUBJECT|*</mj-title>
+    <mj-preview>*|MC_PREVIEW_TEXT|*</mj-preview>
+    <mj-attributes>
+      <mj-font href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" name="Roboto" />
+      <mj-all font-family="Roboto, Arial, sans-serif"></mj-all>
+      <mj-class name="heading" font-weight="500" font-size="19px" padding-top="20px" padding-bottom="0" />
+      <mj-class name="text" font-weight="300" font-size="16px" color="#616161" line-height="28px" />
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section padding="20px 0">
+      <mj-column width="100%">
+        <mj-text align="center" mj-class="text" font-size="12px">*|IFNOT:ARCHIVE_PAGE|*
+          <a href="*|ARCHIVE|*?{{utm}}">View Email in browser</a> *|END:IF|*</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image href="https://connectingdirectors.com/?{{utm}}" src="{{ featuredImageUrl }}"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text align="center" mj-class="heading">The Friday Funeral Fast Wrap</mj-text>
+        <mj-text align="center" mj-class="text">Your weekly email publication from
+          <a href="https://connectingdirectors.com/?{{utm}}" target="_blank">Connecting Directors</a>
+          that gives you some info, opinions, and hopefully a little bit of
+          fun.</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Issue number/date -->
+    <mj-section>
+      <mj-column width="65%">
+        <mj-text align="center" mj-class="heading">ISSUE #{{ issueNumber }} - {{ issueDate }}</mj-text>
+        <mj-divider border-width="2px" border-color="#616161"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <!-- /Issue number/date -->
+    <!-- Intro -->
+    <mj-section padding-top="30px">
+      <mj-column width="100%">
+        <mj-text mj-class="heading">THE WRIGHT TIME</mj-text>
+        <mj-text mj-class="text">They say Red Bull gives you wings… I don’t know about that. Normally it gives me the shakes and a case of heartburn. What I do know is that on this day in 1903, the Wright brothers took some wings into the sky and flew the first “flying machine.” Being an Ohio boy, I appreciate the day that a couple of other Ohio boys changed the world. Fun fact though, the first flight only lasted 12 seconds. That’s it! However, those 12 seconds were enough to inspire them and to show that the impossible was indeed possible. Pretty cool, right? Just think, I’ve spent way more time than that just typing this intro and it’s way less impactful. Like in one-sixth of a minute they changed the way we travel and I’ve spent five minutes trying to think what GIF should go with this. Oh well, I guess it’s al-WRIGHT!</mj-text>
+        <mj-text mj-class="text">Fridays left before Christmas: 1</mj-text>
+        <mj-text mj-class="text">Let's go, folks!</mj-text>
+        <mj-image src="https://lh3.googleusercontent.com/x7aLyUNtx12yPy0ASaD4SKku6Y0YREgpYdWByhdVh6Nj47N3CrsPL66b6u1Z101VrLhexvabrE0ziGE-DCJUZFFlSLtuiKgjvXP0pUeQgf0Mv7ZguC-sq2RzJqJOEXTjglz7IV6O" align="center" width="300px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- /Intro -->
+    <mj-section>
+      <mj-column>
+        <mj-divider width="80%" border-width="1px" padding-top="30px" padding-bottom="30px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <!-- Game Time Section -->
+    <mj-section padding-top="30px">
+      <mj-column width="100%">
+        <mj-text mj-class="heading">GAME TIME!</mj-text>
+        <mj-text mj-class="text">Christmas movies and stories are all about death and the un-dead. (Ooooh spooky) So, how many ghosts are in the classic “A Christmas Carol” by Charles Dickens?</mj-text>
+        <mj-text mj-class="text">
+          <ul>
+            <li>a) <a href="https://media.giphy.com/media/wofftnAdDtx4s/giphy.gif?{{utm}}" target="_blank">2</a></li>
+            <li>b) <a href="https://media.giphy.com/media/VL48WGMDjD64umCEkv/giphy.gif?{{utm}}" target="_blank">3</a></li>
+            <li>c) <a href="https://media.giphy.com/media/3WCNY2RhcmnwGbKbCi/giphy.gif?{{utm}}" target="_blank">4</a></li>
+          </ul>
+        </mj-text>
+        <mj-image src="https://lh6.googleusercontent.com/k3n4fqnTKxCd6FhftAdkX_REn2dC0lfnULG8SpIvGey1ejwm3iZ2p8iwbXZ6yDnd6gjN7e7y1dxl-GG5BwtISEJIp--YoMhPpNV8LPY69xM6adMKlINW9luye-wFKYRlKW1U0dFL" align="center" width="300px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- /Game Time Section -->
+    <!--mj-section>
+      <mj-column>
+        <mj-divider width="80%" border-width="1px" padding-top="30px" padding-bottom="30px"></mj-divider>
+      </mj-column>
+    </mj-section-->
+    <!-- TikTok Insert
+    <mj-section padding-top="30px">
+      <mj-column width="100%">
+        <mj-text mj-class="heading">SHOULD YOUR FUNERAL HOME BE ON TIKTOK?</mj-text>
+          <mj-text mj-class="text">TikTok almost isn’t new anymore. It started getting mainstream in 2019 and built a massive user base during the pandemic. So with so many people being on a platform, shouldn’t you be there too?</mj-text>
+          <mj-text mj-class="text">Well, no… but yes. See, your demographic isn’t actively using TikTok enough to justify a large budget and time commitment to it. There’s also no way to target your content specifically to your community. So for the time being, you shouldn’t stress too much over this platform. That being said, adapting the trends to a funeral home would be amazing to see, and we here at the FFFW VERY MUCH support it. So, though you don’t HAVE to and it might not be SUPER beneficial, you should start making some Toks.</mj-text>
+          <mj-text mj-class="text">So what does work? Still, the best platform for reaching people 55 and up (your target demographic) is Facebook. And nobody manages funeral homes on Facebook as well as DISRUPT Media. If you’re interested in seeing high ROI through social media then you should see what all DM has to offer!</mj-text>
+          <mj-text mj-class="text">Click <a href="https://disruptmedia.co/?{{utm}}" target="_blank">here</a> to learn more! Watch this whole GIF for a satisfying ending!</mj-text>
+        <mj-image src="https://lh6.googleusercontent.com/ifWiMelUtLsqXsF6gMycIoMwPJCcM0ObEj9agg1cgDowau2-R_eyyda35HRHe0s9BSjpwiUE9vyN827wLo_Z1Y8nLIVSAQKzG-xTCa3dFVZOwZo_TZJEjTNztM4H0_-FqULna6S3" align="center" width="300px"></mj-image>
+        <mj-text mj-class="text">
+          WANT AN AD IN FFFW LIKE THIS? JUST SHOOT RYAN AN EMAIL AT <a href="mailto:ryan@disruptmedia.co" target="_blank">RYAN@DISRUPTMEDIA.CO</a> WE’LL WRITE UP AN ARTICLE AND MAKE A CUSTOM GIF!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!- /TikTok Insert -->
+    <!-- Maximize Time Insert -->
+    <!--mj-section padding-top="30px">
+      <mj-column width="100%">
+        <mj-text mj-class="heading">HOW TO MAXIMIZE YOUR TIME</mj-text>
+        <mj-text mj-class="text">You're very busy. You have to be. This profession doesn't lend itself to copious amounts of free time and a light workload. So, wouldn't it be nice to have some backup? Wouldn't it feel freeing to have people you trust working with your company and brand? Well, DISRUPT Media wants to give you those feelings and so much more.</mj-text>
+        <mj-text mj-class="text">Not only does DISRUPT Media provide you with a digital marketing strategy, 24/7 page monitoring (reading messages, responding to comments, etc.), and the boldest ideas to help you pierce through the noise, but DISRUPT Media gives you a full-blown team. That's right.</mj-text>
+        <mj-text mj-class="text">Members of DISRUPT Media have access to writers, graphic designers, creative developers, and an analytics team that all share the same goal: they want to see you succeed.</mj-text>
+        <mj-text mj-class="text">Sounds good? Too good? Well... good. It only gets better because this whole team only costs a third of what you might pay one full-time employee.</mj-text>
+        <mj-text mj-class="text"><a href="https://disruptmedia.co/?{{utm}}" target="_blank">See how DISRUPT Media can help you.</a></mj-text>
+        <mj-image src="https://lh5.googleusercontent.com/gCqxo7nMGmFRtplwTX_2ktdHuYNAMqyklwh01_Iz1sJ8-nc-CehbhlaQyKlMFlk6voFEM2MGbzuaTFVLF9-L8BW9WW1U2K8NOOwndPK_todfRB56QYmbi5BIxaHUiwsWmix0b7FM" align="center" width="300px"></mj-image>
+        <mj-text mj-class="text">
+          WANT AN AD IN FFFW LIKE THIS? JUST SHOOT RYAN AN EMAIL AT <a href="mailto:ryan@disruptmedia.co" target="_blank">RYAN@DISRUPTMEDIA.CO</a> WE’LL WRITE UP AN ARTICLE AND MAKE A CUSTOM GIF!
+        </mj-text>
+      </mj-column>
+    </mj-section-->
+    <!-- /TikTok Insert -->
+    <!-- Parting Pro Fascinating Stats Insert -->
+    <!--mj-section padding-top="30px">
+      <mj-column width="100%">
+        <mj-text mj-class="heading">FASCINATING STATS (SPONSORED)</mj-text>
+        <mj-image
+        src="https://lh5.googleusercontent.com/n6x15owwzFX4b43XpqBly33r371DI2YBU5svQZiJ6IWCIC6-sXO8RWcOUJoAkdH0UuVigoj33ds84j7KOkoWv323iEuvFggWXWT0U3R2vg1oakQhH7Kl-nST7qeGXun3D2QALp7J=s1600"
+        align="center"
+        width="300px"
+        ></mj-image>
+        <mj-text mj-class="text">Here are some cool stats!</mj-text>
+        <mj-text mj-class="text">
+          <ul>
+            <li>The fastest window cleaner washed three windows in nine seconds</li>
+            <li>In one minute, a man smashed 80 eggs with just his head</li>
+            <li>The fastest talker said 260 words in 23.8 seconds</li>
+          </ul>
+        </mj-text>
+        <mj-text mj-class="text">These things fascinate me! Here's another fun thing- through <strong>Parting Pro</strong>, people can complete cremation arrangements in 18 minutes. That's AWESOME! By giving families a simple online experience, Parting Pro also helps funeral businesses increase merchandise sales, acquire positive reviews, and grow profit. </mj-text>
+        <mj-text mj-class="text">Plus, they're teaming up with us so you can continue to get the GIFs and goods you get every week from the FFFW. So, we think they're pretty cool.</mj-text>
+        <mj-text mj-class="text">Basically, if I had to sum it up using alliteration, I would say to remember the 13 P’s.</mj-text>
+        <mj-text mj-class="text">"Parting Pro Provides Positive Profit for their Partnered Providers by Providing People with Programmed Painless Participation Possibilities."</mj-text>
+        <mj-text mj-class="text">What are you waiting for? Check it out! <a href="https://www.partingpro.com/?{{utm}}" target="_blank">CLICK THIS LINK</a>!</mj-text>
+        <mj-image
+        src="https://lh5.googleusercontent.com/P8XoqhM9kQGQ9pJf_-y15FNr9X1XgWI1z8CwZX3M0HmhH0jnXihCYkuA2kyWhp_TqBpcxwK9j-iPZDvNgHRguLEMfLe809SgdbqpvJ8qiqVZtLjJrl1ikMMBMAW0C4VmtCe4nYDh=s0"
+        align="center"
+        width="300px"
+        ></mj-image>
+      </mj-column>
+    </mj-section-->
+    <!-- / Parting Pro Fascinating Stats Insert -->
+    <!-- Parting Pro 100,000 What? Insert -->
+    <!-- <mj-section padding-top="30px">
+      <mj-column width="100%">
+        <mj-text mj-class="heading">100,000 WHAT?</mj-text>
+        <mj-image src="https://lh5.googleusercontent.com/MRnRUtemdekArjjG-Ewd4oh44bK78txVo7eSCR9w8Ulu0yEQxCYukb40WrfRIa3vbjAXuMaKsQpgdMtSlIeeMf_YCxhB-idCGNA2boAayh6Dxhx0Yf3tNEEViM6UYCb-GdiG0cQR" align="center" width="300px"></mj-image>
+        <mj-text mj-class="text">100,000 of anything is a lot. </mj-text>
+        <mj-text mj-class="text">
+          <ul>
+            <li>100,000 seconds is equal to 27.7 hours.</li>
+            <li>100,000 days is equal to 273.9 years.</li>
+            <li>100,000 miles is equal to the length of the USA (coast to coast) 33 times over.</li>
+          </ul>
+        </mj-text>
+        <mj-text mj-class="text">So, that's why it's awesome when we tell you that Parting Pro's funeral homes have had over 100,000 families use their online arranger. That's proof that it works, and it works well! They have a mission to skyrocket your cremation business without forcing you to hire any new employees. <a href="https://www.partingpro.com/?utm_source=fffw" target="_blank">See for yourself</a> how Parting Pro can work for you!</mj-text>
+        <mj-text mj-class="text">"The biggest innovation in deathcare in the past decade or two."</mj-text>
+      </mj-column>
+    </mj-section> -->
+    <!-- / Parting Pro 100,000 What? Insert -->
+    <!-- Parting Pro 5-Star Funeral Home Insert -->
+    <mj-section padding-top="30px">
+      <mj-column width="100%">
+        <mj-text mj-class="heading">BECOME A 5-STAR FUNERAL HOME</mj-text>
+        <mj-image src="https://lh3.googleusercontent.com/_eFK8mOlOACizvq_4g_CHpdpsSdsZR4nxZ7D8ZN0lkC6AU4rLV1hHMjunje1_nULwD63iPWKnAPTzlBwnoea2YiR5PwA0EPNFMRRfNJjUcno_bWLIfLmblJrE0ikIFFNewT9pbai" align="center" width="300px"></mj-image>
+        <mj-text mj-class="text">Do you want reviews that look like this? These are just a small sample of 5-star reviews left for Parting Pro's customers.</mj-text>
+        <mj-text mj-class="text">"It was a very positive experience from start to finish! The prices are reasonable, and the service is wonderful. I really appreciated the fact that I was able to do all of the paperwork online in advance."</mj-text>
+        <mj-text mj-class="text">"The website was simple to navigate, and I liked that I could sort through all various options when making a decision. I did everything online, and it was quick and easy!"</mj-text>
+        <mj-text mj-class="text">"We could not have been more pleased with the entire experience. From start to finish, they were gracious, understanding, sympathetic, and followed through on everything they said they would. A family-owned business and they made us feel like family!"</mj-text>
+        <mj-text mj-class="text">“Yes! I would love that!” - You (hopefully)</mj-text>
+        <mj-text mj-class="text">Great! With Parting Pro, families can pay for services and complete forms online, saving both you and them valuable time. Once they see how easy it is to work with you, they can’t help but share the news.</mj-text>
+        <mj-text mj-class="text"><a href="https://www.partingpro.com/?{{utm}}" target="_blank">See for yourself how Parting Pro</a> can mirror online the positive reputation you’ve earned in your community!</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- / Parting Pro 5-Star Funeral Home Insert -->
+    <mj-section>
+      <mj-column>
+        <mj-divider width="80%" border-width="1px" padding-top="30px" padding-bottom="30px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <!-- Main Content -->
+    <mj-section padding-top="30px">
+      <mj-column width="100%">
+        <mj-text mj-class="heading">Ugly Christmas Ties</mj-text>
+        <mj-text mj-class="text">For men in the funeral profession, ties are a big deal. And I know around this time of year, people are wearing ugly Christmas sweaters, but what about some ugly Christmas ties? I scoured the internet and found the best ones. Maybe you can get some inspo for the big weekend coming up!</mj-text>
+        <mj-text mj-class="text">1) <strong>Can I have your Grandma’s style?</strong></mj-text>
+        <mj-image src="https://lh5.googleusercontent.com/k_7vC8J4SfSi0PkSyyWRXy7b65u2tTvKL9K5AnmxvifQMjpFXVH3tZAB0Khi9GICugik0PEIzYMlH4KdRvK-qfb0DN1K3nAV--1pvbhkdTjfFIhaAda07GAP0PT4cyNyADYHtnFA" align="center" width="300px"></mj-image>
+        <mj-text mj-class="text">2) <strong>It’s a major award!</strong></mj-text>
+        <mj-image src="https://lh5.googleusercontent.com/osTy9e_oAdn_9QQ3A-0qZNC579sp8dUvkuKDvBu7x6fNBQ56omrZ3EsW3mwOLbd1AH_71g3N2Tmm4Qc28fRQbALo-jpTbL2bZ7Ugj1hX7Uy95CduM4UQJmKBX3wahmJ2RiZmmqSf" align="center" width="300px"></mj-image>
+        <mj-text mj-class="text">3) <strong>Thicker than a Snicker</strong></mj-text>
+        <mj-image src="https://lh6.googleusercontent.com/c48u1N7vPxr_M1b81LF07F0o3NgQrPJpzWwJ3k8gDy6OwLo3YibjA8nY7DcSIgOExepfwYgEAlznEikBACljy_mQ_tMZfqoy7CA69cLStmKskbB02xVKbesw0vE-AEuZx6Fly3AU" align="center" width="300px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- /Main Content -->
+    <mj-section>
+      <mj-column>
+        <mj-divider width="80%" border-width="1px" padding-top="30px" padding-bottom="30px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <!-- Comic Of The Week -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text mj-class="heading">COMIC OF THE WEEK</mj-text>
+        <mj-text mj-class="text">Friends don’t let friends dive into a cremation.</mj-text>
+        <mj-image src="https://lh4.googleusercontent.com/ZsgBhiYBSOrYWTAokbRJsE2zb0y17BcnT5fVcavChZoQesOgweRjjXv6wAimyxC6u9UM70JT4ruSmKyjKELqJYmkWad96VsJjB_LcouHhC5HVqOv2e7VllukqdM-wHTwH_h2bTKZ" align="center" width="300px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- /Comic Of The Week -->
+    <mj-section>
+      <mj-column>
+        <mj-divider width="80%" border-width="1px" padding-top="30px" padding-bottom="30px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <!-- You Otter Be Proud -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text mj-class="heading">YOU OTTER BE PROUD</mj-text>
+        <mj-text mj-class="text">
+          Let’s be honest, our profession gets a lot of negative press, so we’ve searched the internet to find stories of funeral things getting respect, and doing great things!
+          <ol>
+            <li><a href="https://www.kshb.com/news/local-news/highland-park-funeral-home-donates-10-000-to-coreys-network?{{utm}}" target="_blank">Highland Park Funeral home donates $10,000 to Corey's Network</a></li>
+            <li><a href="https://www.edinburghnews.scotsman.com/news/people/world-suicide-prevention-day-edinburgh-funeral-director-who-saved-woman-from-jumping-to-her-death-urges-people-to-seek-help-for-mental-health-3378604?{{utm}}" target="_blank">Funeral director who saved woman from jumping to her death urges people to seek help for mental health</a></li>
+            <!-- <li><a href="https://www.wspa.com/news/greenville-funeral-home-helps-set-up-scholarship-fund-for-substance-abuse-recovery/?{{utm}}" target="_blank">3) Greenville funeral home helps set up scholarship fund for addiction recovery</a></li> -->
+          </ol>
+        </mj-text>
+        <mj-text mj-class="text">There ya go!</mj-text>
+        <mj-image src="https://media.giphy.com/media/ely3apij36BJhoZ234/giphy-downsized.gif" width="300px"></mj-image>
+        <mj-text mj-class="text">Thank you for reading The Friday Funeral Fast Wrap! Have any ideas or hot-tips? Send those our way!</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /You Otter Be Proud -->
+    <!--mj-section>
+      <mj-column>
+        <mj-divider width="80%" border-width="1px" padding-top="30px" padding-bottom="30px"></mj-divider>
+      </mj-column>
+    </mj-section-->
+    <!-- DCJ Listings -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text mj-class="heading">Looking for a job? Here's some!</mj-text>
+        {{#each listings}}
+          <mj-text mj-class="text"><a href="{{link}}?{{utm}}" target="_blank" rel="nofollow noopener">{{{ title }}} at {{{ company }}}</a> &mdash; {{{ location }}}</mj-text>
+        {{/each}}
+      </mj-column>
+    </mj-section>
+    <!-- /DCJ Listings -->
+    <mj-section>
+      <mj-column>
+        <mj-divider width="80%" border-width="1px" padding-top="30px" padding-bottom="30px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text mj-class="text">Thank you for reading The Friday Funeral Fast Wrap! Have any ideas or hot-tips? Send those our way!</mj-text>
+        <!-- <mj-text mj-class="text">Thanks for celebrating this AWESOME day with us! Here’s to a good weekend and a happy life!</mj-text> -->
+      </mj-column>
+    </mj-section>
+    <!-- Social -->
+    <mj-section>
+      <mj-column width="35%">
+        <mj-table>
+          <tr style="list-style: none; line-height: 1">
+            <td>
+              <a href="https://facebook.com/connectingdirectors?{{utm}}">
+                <img width="20" src="https://assets.thedailyhearse.com/fffw/social-icons/facebook.png?{{utm}}" />
+              </a>
+            </td>
+            <td>
+              <a href="https://twitter.com/cdfuneralnews?{{utm}}">
+                <img width="20" src="https://assets.thedailyhearse.com/fffw/social-icons/twitter.png?{{utm}}" />
+              </a>
+            </td>
+            <td>
+              <a href="https://www.youtube.com/user/connectingdirectors?{{utm}}">
+                <img width="25" src="https://assets.thedailyhearse.com/fffw/social-icons/youtube.png?{{utm}}" />
+              </a>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!-- /Social -->
+    <!-- Required MailChimp Info -->
+    <mj-section>
+      <mj-column width="65%">
+        <mj-text mj-class="text" align="center" font-family="Arial" font-size="12px">&copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*</mj-text>
+        <mj-text mj-class="text" align="center" padding-bottom="3px" font-family="Arial" font-size="12px">*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*</mj-text>
+        <mj-text mj-class="text" align="center" padding-top="3px" padding-bottom="8px" font-family="Arial" font-size="12px">*|HTML:LIST_ADDRESS_HTML|*</mj-text>
+        <mj-text mj-class="text" align="center" padding-top="8px" font-family="Arial" font-size="12px">
+          <a href="*|UNSUB|*">Unsubscribe</a> &middot;
+          <a href="*|UPDATE_PROFILE|*">Update Preferences</a> &middot;
+          <a href="*|FORWARD|*">Forward This Email</a> *|END:IF|*
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /Required MailChimp Info -->
+  </mj-body>
+</mjml>

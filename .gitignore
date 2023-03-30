@@ -1,0 +1,11 @@
+.env
+node_modules/
+dcj-email.html
+template-out*
+template.json
+dailyhearse/email.mjml
+dailyhearse/email.html
+deathcarejobs/email.html
+deathcarejobs/email.mjml
+fffw/email.mjml
+fffw/email.html
