@@ -34,7 +34,7 @@ require('dotenv').config({
     .then((res) => {
       console.log(`==> Uploaded FFFW Email `);
       console.log(
-        `==> View here: https://assets.thedailyhearse.com/4m/latest.html?versionId=${res.VersionId}`
+        `==> View here: dynamic link to S3 uploaded asset here`
       );
     })
     .catch((error) => {
