@@ -1,4 +1,4 @@
-# Daily Hearse Tools
+# Daily Email Generator Tools
 
 You'll need:
 
